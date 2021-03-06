@@ -3,6 +3,6 @@
 <p>Esta pagina solo funciona si estas autenticado</p>
 
 <h4>User Info</h4>
-<pre>...</pre>
+<pre> {{ user | json }}</pre>
 
 <button (click)="logOut()">LogOut</button>
